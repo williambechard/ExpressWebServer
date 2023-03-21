@@ -1,0 +1,34 @@
+{
+  "name": "webserverpackage",
+  "version": "1.0.0",
+  "description": "express web server project",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/williambechard/ExpressWebServer.git"
+  },
+  "keywords": [
+    "express",
+    "webserver"
+  ],
+  "author": "william joseph bechard",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/williambechard/ExpressWebServer/issues"
+  },
+  "homepage": "https://github.com/williambechard/ExpressWebServer#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "connect-livereload": "^0.6.1",
+    "livereload": "^0.9.3",
+    "nodemon": "^2.0.21"
+  }
+}
