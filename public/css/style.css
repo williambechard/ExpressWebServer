@@ -1,0 +1,14 @@
+body{
+    background-color:lightgrey;
+}
+
+h1{
+    font-weight: bolder;
+    font-size:3rem;
+    font-family: FastHand, sans-serif;
+}
+
+p{
+    color:grey;
+    text-align: center;
+}
