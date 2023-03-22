@@ -5,17 +5,68 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Fasthand&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-light-blue.css">
     <title>Express Server</title>
     <meta charset="UTF-8">
     <meta name="description" content="Web Server example project">
     <meta name="keywords" content="HTML, CSS, JavaScript, NodeJS, Express">
     <meta name="author" content="William Bechard">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js" integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=" crossorigin="anonymous"></script>
+    <script src="js/main.js" defer></script>
 </head>
 <body>
-
-<h1>Home Page!</h1>
-<p>My first paragraph.</p>
-
+<header class="w3-container w3-theme">This is the header</header>
+<nav class="w3-container">
+    <ul>
+        <li><a href="#frag1" >Home</a></li>
+        <li><a href="#frag2">Link 1</a></li>
+    </ul>
+</nav>
+<section class="w3-container w3-theme-d3 blog-area">
+<h1 id="frag1">My Blog Posts</h1>
+    <div class="w3-container cards">
+        <table class="w3-card blog-card w3-theme-d5">
+            <thead><tr>
+                <th>
+                    <h2 class="w3-theme-d1 w3-row card-header">It Came From The Blog</h2>
+                </th>
+            </tr></thead>
+            <tbody>
+            <tr>
+                <td>
+                    <div class="w3-container w3-theme-d4 w3-row fullHeight">
+                        <p>What happened?</p>
+                        <p>How it ended!</p>
+                        <form id="blog-form" >
+                            <div class="w3-panel">
+                            <label for="author">Author Name</label>
+                            <input type="text" id="author" name="author" />
+                            </div>
+                            <div class="w3-panel">
+                            <label for="content">Blog Content</label>
+                            <textarea name="content" id="content" rows =5 col="5"></textarea>
+                            </div>
+                            <div class="w3-panel">
+                                <button id="submitButton">Post</button>
+                            </div>
+                        </form>
+                    </div>
+                </td>
+            </tr>
+            </tbody>
+            <tfoot>
+            <tr>
+                <td>
+                    <div class="author-area w3-theme-d2 w3-row"><img src="http://placekitten.com/100/100" alt="kitten"/><span class="author">William J. Bechard</span></div>
+                </td>
+            </tr>
+            </tfoot>
+        </table>
+    </div>
+<p id="frag2">My first paragraph.</p>
+</section>
+<footer class="w3-container">This is the footer</footer>
 </body>
 </html>

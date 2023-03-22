@@ -23,6 +23,7 @@
   },
   "homepage": "https://github.com/williambechard/ExpressWebServer#readme",
   "dependencies": {
+    "body-parser": "^1.20.2",
     "express": "^4.18.2",
     "path": "^0.12.7"
   },

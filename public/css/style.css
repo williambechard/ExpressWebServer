@@ -9,6 +9,112 @@ h1{
 }
 
 p{
-    color:grey;
+    color:white;
     text-align: center;
+}
+
+section{
+    background-color: gainsboro;
+    display: block;
+
+}
+
+header{
+    background-color:blue;
+}
+
+nav{
+   width:100%;
+}
+
+footer{
+    background-color:green;
+}
+
+nav > ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: gainsboro;
+}
+
+li {
+    float: left;
+    background-color: gainsboro;
+}
+
+li:hover{
+    background-color: grey;
+}
+
+.blog-area{
+    height:800px;
+    width:100%;
+}
+
+.cards{
+    display:flex;
+    justify-content: space-between;
+}
+span{
+    color:white;
+    font-weight: bolder;
+}
+.author{
+    margin-left:10px;
+}
+.card-header{
+    border-radius: 10px;
+    height:60px;
+}
+img{
+    display: none;
+    border-radius: 50%;
+}
+
+@media only screen and (min-width: 700px) {
+    img{
+        display: inline-block;
+    }
+}
+
+.blog-card{
+    width:400px;
+    height:600px;
+    border-radius: 15px;
+}
+
+input, textarea{
+    width:100%;
+    border-radius: 10px;
+    resize:none;
+}
+
+label{
+    display: block;
+}
+
+button{
+    float:right;
+}
+
+form > input{
+    border-radius:10px;
+}
+
+.fullHeight{
+    height:100%;
+    margin:10px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.author-area{
+    border-right: 10px;
+    border-radius: 10px;
+    padding:10px;
+}
+a {
+    display: block;
+    padding: 8px;
+    text-decoration: none;
 }
